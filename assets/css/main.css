@@ -1,0 +1,95 @@
+.container {
+  max-width: 100%;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid blueviolet;
+  border-radius: 12px;
+}
+
+.container h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: blueviolet;
+}
+.game {
+  display: flex;
+  gap: 128px;
+  margin-bottom: 48px;
+}
+
+.gamerBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.gamerBtn h2 {
+  color: blueviolet;
+}
+.gamerBtn button {
+  background-color: blueviolet;
+  color: blue;
+  width: 80px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+}
+.gamer button {
+  background-color: blueviolet;
+  color: blue;
+  width: 80px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+}
+.gamer {
+  gap: 96px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gamer h2 {
+  color: blueviolets;
+}
+.score {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+.score p {
+  color: blueviolet;
+  font-size: 20px;
+}
+.delete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.delete button {
+  width: 250px;
+  height: 46px;
+  border-radius: 6px;
+  border: none;
+  background-color: bisque;
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.delete span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: blueviolet;
+  width: 250px;
+  height: 46px;
+  border: 1px solid blue;
+  border-radius: 6px;
+}

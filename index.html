@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <title>Tas, Kagit, Makas Oyunu</title>
+  <script src="/assets/js/game.js" defer></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tas Kagit Makas</h1>
+
+    <div class="game">
+      <div class="gamerBtn">
+        <h2>Oyuncu</h2>
+        <button id="tas">Tas</button>
+        <button id="kagit">Kagit</button>
+        <button id="makas">Makas</button>
+      </div>
+      <div class="gamer">
+        <h2>Bilgisayar</h2>
+        <button id="computerBtn">Tas</button>
+      </div>
+    </div>
+    <div class="score">
+      <p id="gamer">Oyuncu: 0</p>
+      <p id="bilgisayar">Bilgisayar: 0</p>
+    </div>
+
+    <div class="delete">
+      <span id="winner">Kazanan: </span>
+      <button onclick="scoreDelete()">Skorlari Sifirla</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
